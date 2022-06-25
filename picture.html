@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>
+			CSS Selectors Activity
+		
+		</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="styles.css">
+
+		<style>
+			div.desc, h2, h4 {
+				font-family: Helvetica;
+				text-align: center;
+
+			}
+
+			div.desc {
+				margin: 15px;
+
+			}
+
+			.grid-container {
+    			display: grid;
+    			grid-template-columns: 1fr 1fr 1fr 1fr;
+    			grid-gap: 15px;
+
+			}
+
+			div.responsive:first-child {
+				margin-left: 7px;
+				margin-right: 0px;
+
+			}
+
+			div.responsive:last-child {
+				margin-right: 7px;
+				margin-left: 0px;
+
+			}
+
+			div.responsive:hover {
+				border: 5px solid grey;
+
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<h2>CSS Selectors activity</h2>
+
+		<h4>Hover over each Images to see the effect</h4>
+
+		<div class="grid-container">
+			<div class="responsive grid-child">
+				<div class="gallery">
+					<a target="_blank" href="img_5terre.jpg">
+						<img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+
+					</a>
+
+					<div class="desc">
+						Cinque Terre
+					
+					</div>
+				</div>
+			</div>
+
+
+			<div class="responsive grid-child">
+				<div class="gallery">
+					<a target="_blank" href="img_forest.jpg">
+						<img src="img_forest.jpg" alt="Forest" width="600" height="400">
+
+					</a>
+
+					<div class="desc">
+						Forest
+				
+					</div>
+				</div>
+			</div>
+
+			<div class="responsive grid-child">
+				<div class="gallery">
+					<a target="_blank" href="img_lights.jpg">
+						<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+
+					</a>
+
+					<div class="desc">
+						Northern Lights
+					
+					</div>
+				</div>
+			</div>
+
+			<div class="responsive grid-child">
+				<div class="gallery">
+					<a target="_blank" href="img_mountains.jpg">
+						<img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+
+					</a>
+
+					<div class="desc">
+						Mountains
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clearfix">
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>
+            DICE ACTIVITY (CSS BOX MODEL)
+        
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+        * {
+            border-radius: 25.4px;
+
+        }
+
+        div.wrapper {
+            margin-top: 14px;
+            margin-left: 20px;
+            height: 200px;
+            width: 200px;
+            border: 10px solid black;
+            display: inline-block;
+
+        }
+
+        div.dicerow1>div {
+            display: inline-block;
+            height: 1;
+            width: 1;
+            border: 20px solid black;
+            margin-bottom: 10px;
+
+        }
+        
+        div.dicerow2>div{
+            display: inline-block;
+            height: 1;
+            width: 1;
+            border: 20px solid black;
+            margin-bottom: 20px;
+
+        }
+
+        div.dicerow3>div{
+            display: inline-block;
+            height: 1;
+            width: 1;
+            border: 20px solid black;
+            margin-bottom: 20px;
+
+        }
+
+        div.dicerowC>div{
+            display: inline-block;
+            height: 1;
+            width: 1;
+            border: 20px solid black;
+            margin-bottom: 20px;
+
+        }
+
+        div.div1 {
+            margin-top: 10;
+            margin-left: 15;
+            margin-right: 50px;
+
+        }
+
+        div.div2 {
+            margin-left: 30px;
+
+        }
+
+        div.dicerow1, div.dicerow2, div.dicerow3 {
+            margin-top: 10px;
+            margin-left: 15px;
+            display: block;
+
+        }
+
+        div.dicerowC {
+            margin-top: 10px;
+            display: block;
+
+        }
+
+        div.center {
+            margin-left: 80px;
+            margin-right: 80px;
+
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <!-- Side-6 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerow2">
+
+                    <!-- third small circle -->
+                    <div class="div1"></div>
+
+                    <!-- fourth small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"></div>
+                </div>
+            </div>
+
+            <!-- Side-5 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerowC">
+
+                    <!-- third small circle -->
+                    <div class="div1 center"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"></div>
+                </div>
+            </div>
+
+            <!-- Side-4 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerow2">
+
+                    <!-- third small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- fourth small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"></div>
+                </div>
+            </div>
+
+            <!-- Side-3 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerowC">
+
+                    <!-- third small circle -->
+                    <div class="div1 center"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+            </div>
+
+            <!-- Side-2 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"></div>
+                </div>
+
+                <div class="dicerow2">
+
+                    <!-- third small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- fourth small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+            </div>
+
+            <!-- Side-1 -->
+            <!-- border section -->
+            <div class="wrapper">
+                <div class="dicerow1">
+
+                    <!-- first small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- second small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+
+                <div class="dicerowC">
+
+                    <!-- third small circle -->
+                    <div class="div1 center"></div>
+                </div>
+
+                <div class="dicerow3">
+
+                    <!-- fifth small circle -->
+                    <div class="div1"
+                        style="border: 20px solid white;"></div>
+
+                    <!-- sixth small circle -->
+                    <div class="div2"
+                        style="border: 20px solid white;"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
